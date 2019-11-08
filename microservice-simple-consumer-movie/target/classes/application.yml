@@ -1,0 +1,17 @@
+server:
+  port: 8010
+management:
+  endpoint:
+    health:
+      show-details: always
+# INFO ENDPOINT CONFIGURATION
+info:
+  app:
+    name: microservice-simple-consumer-movie
+    description: Demo project for Spring Boot
+    version: 0.0.1-SNAPSHOT
+    encoding: UTF-8
+    java:
+      version: 1.8.0_131
+user:
+  userServiceUrl: http://localhost:8000/
